@@ -1,0 +1,24 @@
+{
+  "name": "Tetris-Survival-Of-The-Fittest",
+  "version": "0.0.4",
+  "description": "Multiplyer Tetris (in development)",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.4.0"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IncrementalMe/Tetris-Survival-Of-The-Fittest.git"
+  },
+  "author": "Oliver Robinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IncrementalMe/Tetris-Survival-Of-The-Fittest/issues"
+  },
+  "homepage": "https://github.com/IncrementalMe/Tetris-Survival-Of-The-Fittest#readme"
+}

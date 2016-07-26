@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Tetris - Survival Of The Fittest</title>
+	<link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body onload="beginLoop()">
+<div id="wrapper">
+	<canvas id="board" ></canvas>
+	<p id="fps"></p>
+<body>
+	<div id="chat">
+		<ul id="connectionList"></ul>
+		<ul id="messages"></ul>
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+	
+	<script src="/scripts/jquery-1.11.1.min.js"></script>
+	<script src="/scripts/canvasInput.js"></script>
+	<script src="/scripts/socket.js"></script>
+	<script src="/scripts/entities.js"></script>
+	
+	<script src="/scripts/screens/main.js"></script>
+	<script src="/scripts/screens/title.js"></script>
+	<script src="/scripts/screens/lobby.js"></script>
+</div>
+</body>
+
+</html>

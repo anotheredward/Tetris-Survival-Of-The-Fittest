@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px Helvetica, Arial;
+}
+
+#wrapper {
+	width: 900px;
+	height: 950px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#connectionList { background: #cacaca;}
+#messages { list-style-type: none; margin: 0; padding: 0; }
+#messages li { padding: 3px 10px; }
+#messages li:nth-child(odd) { background: #eee; }
+
+.error{
+	color: red;
+	font-weight: bold;
+	font-size: 14px;
+}
